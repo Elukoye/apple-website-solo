@@ -9,6 +9,15 @@ There is no responsive design.
 
 /* top nav bar*/
 
-.main-body{
-  background-color: aqua;
+.top-nav{
+  background-color: gray;
+  widows: 80%;
+  height:12rem;
+}
+
+.main-footer{
+  background-color: aquamarine;
+}
+.main-heading{
+  background-color: aquamarine;
 }
