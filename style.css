@@ -21,3 +21,13 @@ There is no responsive design.
 .main-heading{
   background-color: aquamarine;
 }
+
+
+
+
+
+
+
+.bottom{
+  display:flex;
+}
