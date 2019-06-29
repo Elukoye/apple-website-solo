@@ -16,11 +16,10 @@ There is no responsive design.
 }
 /* parent-container */
 .top-nav{
-  width:50rem;
-  margin-left:1.8rem;
-  margin-left:10rem;
+  left:12rem;
   position:relative;
-  top:23rem;    
+  top:23rem;
+  width:50rem;    
 }
 
 .top-nav ul  {
