@@ -92,20 +92,18 @@ input{
 .main-heading {
 
   height:300px;
-  width:980px;
   margin-left:7rem;
-  margin-top:4.3rem;
-  padding:3rem; 
+  margin-top:7rem;
   text-align: center;
- 
+  width:980px;
   
 }
 
-.main-heading h1,p,a{
-  text-decoration:none;
+.main-heading span,p,a{
   color:#fff;
   font-family: Helvetica, Arial, Verdana, sans-serif;
   opacity: 0.8;
+  text-decoration:none;
  
 }
 
