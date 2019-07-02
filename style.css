@@ -17,7 +17,7 @@ There is no responsive design.
 
 /* parent-container */
 .top-nav{
-  left:5rem;
+  left:10rem;
   position:relative;
   top:5rem;
   width:50rem;    
@@ -38,7 +38,7 @@ There is no responsive design.
   border-right: 1px solid #7F8080;
   display:table-cell;
   padding-top: 0.8rem;
-   width:8%; 
+   width:4%; 
 }
 
 .nav-links:first-child{
@@ -46,24 +46,20 @@ There is no responsive design.
    border-top-left-radius: 0.3rem;   
  }
  
-.top-nav a ,.fab{
+.nav-links a ,.fab{
   color:#fff;
   font-family: Helvetica, Arial, Verdana, sans-serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-decoration: none;
 }
 
-.search-button{
+ .nav-link :last-child{
   background:linear-gradient(#8E9090   50%,#6E6F6F     50% );
   border-bottom-right-radius:0.3rem; 
   border-left:1px solid  #7F8080;
   border-top:#6E6F6F;
   border-top-right-radius: 0.3rem;
-  bottom:24.9rem;
-  left:55rem;
-  padding-bottom:0.15rem;
-  position:absolute;
- 
+  
 }
 
 input{
@@ -83,71 +79,144 @@ input{
   top:.5rem;  
 }
 
+.material-icons-2{
+  font-size: 1.5rem;
+}
 
 /* main header */
 
 .main-heading {
-  margin-right:4rem;
-  margin-top:3.5rem;
-  padding:3rem;
-  
+
+  height:300px;
+  margin-left:7rem;
+  margin-top:7rem;
+  text-align: center;
+  width:980px;
   
 }
 
+.main-heading span,p,a{
+  color:#fff;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  opacity: 0.8;
+  text-decoration:none;
+ 
+}
 
+.heading-1{
+  font-size: 4.5rem;
+  line-height: 36px;
+  margin-right: 2.5rem;
+}
 
+.subhead-1 p{
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  font-size:1.4rem;
+  line-height: 41px;
+  margin-right:5rem;
+  margin-top:1.8rem;
+  text-indent:1rem;
+  
+  
+ 
+}
 
+.subhead-2 p{
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  font-size:1.15rem;
+  line-height: 37px;
+  margin-bottom: 1rem;
+  margin-right: 6rem;
+  text-decoration: underline;
+ 
+}
+
+.subhead-2,.material-icons{
+  font-size: 1.5rem;
+}
 /* bottom section */
 
 .bottom{
   align-items:center;
   display:flex;
   flex-direction:row;
+  margin-top:0.25rem;
 }
 
-.promo img{
-  height:18rem;
-  margin-top:0.2rem;
+.bottom div{
+  height:230px;
+  margin-bottom:7rem;
+  width:270px;
+  margin-right: 0.01rem;
 }
 
-.promo{
-margin-bottom:7rem;
+.promo-1{
+ background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s_2x.jpg");
+ background-position: 43%  24%;
 }
+
+.promo-2{
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c_2x.jpg");
+  background-position: 45%  24%;
+}
+
+.promo-3{
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years_2x.jpg");
+  background-position:40%  20%;
+   
+}
+
+.promo-4{
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility_2x.jpg");
+  background-position:40%  20%;
+}
+
+
 
 .bottom-footer{
   bottom:7rem;
-  position:relative;  
+  margin-top:0.25rem;
+  position:relative; 
+  
 }
 
 .left-section{
   display:inline-block;
   margin-left:1.5rem;
   margin-top:3rem;
+ 
 }
 
 .left-section p {
-  color: #6e6e6e;
-  font-size: .8334em;
+  color: #6E6F6F;
+  font-size: 0.65rem;
   line-height: 1.2;
+  
+}
+
+.left-section a{
+  color: #08c;
+  text-decoration: none;
 }
 
 .copyryt p{
   color: #6e6e6e;
-  font-size: .8334em;
+  font-size: 0.65rem;
   line-height: 1.2;
 }
 
 .right-section ul{
   bottom:1rem;
   display:inline-block;
-  left:43rem;
+  left:37rem;
   position:relative;  
+ 
 }
 
 .right-section li{
   border-right:1px solid #6e6e6e;
   float:left;
-  font-size: .8334em;
+  font-size: 0.65rem;
   line-height: 1.2;
   padding: 0.3rem;
 }
@@ -166,15 +235,15 @@ margin-bottom:7rem;
 .bottom-left-2 ul{
   bottom:1rem;
   display:inline-block;
-  left:16rem;
-  margin-left: 0.5rem;
+  left:12.5rem;
+  margin-left: 1.2rem;
   position:relative;  
 }
 
 .bottom-left-2 li{
   border-right:1px solid #6e6e6e;
   display:inline;
-  font-size: .8334em;
+  font-size: 0.65rem;
   line-height: 1.2;
   padding: 0.3rem;
 
