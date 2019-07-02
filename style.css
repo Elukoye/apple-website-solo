@@ -17,7 +17,7 @@ There is no responsive design.
 
 /* parent-container */
 .top-nav{
-  left:5rem;
+  left:10rem;
   position:relative;
   top:5rem;
   width:50rem;    
@@ -59,8 +59,8 @@ There is no responsive design.
   border-left:1px solid  #7F8080;
   border-top:#6E6F6F;
   border-top-right-radius: 0.3rem;
-  bottom:24.9rem;
-  left:55rem;
+  bottom:32rem;
+  left:60rem;
   padding-bottom:0.15rem;
   position:absolute;
  
