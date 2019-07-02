@@ -46,10 +46,10 @@ There is no responsive design.
    border-top-left-radius: 0.3rem;   
  }
  
-.top-nav a ,.fab{
+.nav-links a ,.fab{
   color:#fff;
   font-family: Helvetica, Arial, Verdana, sans-serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-decoration: none;
 }
 
@@ -83,32 +83,58 @@ input{
   top:.5rem;  
 }
 
+.material-icons-2{
+  font-size: 1.5rem;
+}
 
 /* main header */
 
 .main-heading {
-  margin-right:4rem;
-  margin-top:3.5rem;
-  padding:3rem;
+
+  height:300px;
+  width:980px;
+  margin-left:7rem;
+  margin-top:4.3rem;
+  padding:3rem; 
+  text-align: center;
+ 
   
 }
 
-.media-1{
-  background-image: url()
-}
+.main-heading h1,p,a{
+  text-decoration:none;
+  color:#fff;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  opacity: 0.8;
  
-.media-2{
-  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_medium_2x.png");
-  height:86px;
-  width:980px;
 }
 
-.media-3{
-  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt_2x.png");
-  height:64px;
-  width:980px;
+.heading-1{
+  font-size: 4.7rem;
+  line-height: 36px;
 }
 
+.subhead-1 p{
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  font-size:1.8rem;
+  line-height: 41px;
+  margin-top:2.3rem;
+  text-indent:1.5rem;
+  
+ 
+}
+
+.subhead-2 p{
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  font-size:1.4rem;
+  line-height: 37px;
+  margin-top:2rem;
+  
+}
+
+.subhead-2,.material-icons{
+  font-size: 1.5rem;
+}
 /* bottom section */
 
 .bottom{
@@ -166,6 +192,11 @@ input{
   font-size: .8334em;
   line-height: 1.2;
   
+}
+
+.left-section a{
+  color: #08c;
+  text-decoration: none;
 }
 
 .copyryt p{
