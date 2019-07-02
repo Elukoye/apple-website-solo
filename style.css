@@ -189,7 +189,7 @@ input{
 
 .left-section p {
   color: #6E6F6F;
-  font-size: .8334em;
+  font-size: 0.65rem;
   line-height: 1.2;
   
 }
@@ -201,21 +201,22 @@ input{
 
 .copyryt p{
   color: #6e6e6e;
-  font-size: .8334em;
+  font-size: 0.65rem;
   line-height: 1.2;
 }
 
 .right-section ul{
   bottom:1rem;
   display:inline-block;
-  left:43rem;
+  left:37rem;
   position:relative;  
+ 
 }
 
 .right-section li{
   border-right:1px solid #6e6e6e;
   float:left;
-  font-size: .8334em;
+  font-size: 0.65rem;
   line-height: 1.2;
   padding: 0.3rem;
 }
@@ -234,15 +235,15 @@ input{
 .bottom-left-2 ul{
   bottom:1rem;
   display:inline-block;
-  left:16rem;
-  margin-left: 0.5rem;
+  left:12.5rem;
+  margin-left: 1.2rem;
   position:relative;  
 }
 
 .bottom-left-2 li{
   border-right:1px solid #6e6e6e;
   display:inline;
-  font-size: .8334em;
+  font-size: 0.65rem;
   line-height: 1.2;
   padding: 0.3rem;
 
