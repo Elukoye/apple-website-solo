@@ -113,10 +113,9 @@ input{
 
 .bottom{
   align-items:center;
-  background-color: #08c;
   display:flex;
   flex-direction:row;
-  margin-top: 0.2rem;
+  margin-top:0.25rem;
 }
 
 .bottom div{
@@ -150,19 +149,23 @@ input{
 
 .bottom-footer{
   bottom:7rem;
-  position:relative;  
+  margin-top:0.25rem;
+  position:relative; 
+  
 }
 
 .left-section{
   display:inline-block;
   margin-left:1.5rem;
   margin-top:3rem;
+ 
 }
 
 .left-section p {
-  color: #6e6e6e;
+  color: #6E6F6F;
   font-size: .8334em;
   line-height: 1.2;
+  
 }
 
 .copyryt p{
